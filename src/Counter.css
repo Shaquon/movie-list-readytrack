@@ -1,0 +1,8 @@
+.counter_wrapper {
+    border: 2px solid rgb(138, 138, 138);
+    width: 45%;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,4 +1,6 @@
+import { useState } from 'react';
 import MovieList from './MovieList';
+import Counter from './Counter';
 import './App.css'
 
 function App() {
@@ -42,6 +44,9 @@ function App() {
 
   return (
     <div>
+      <div className='count_container'>
+        <Counter />
+      </div>
       <MovieList movieItems={DUMMY_MOVIE_DATA} />
     </div>
   );
