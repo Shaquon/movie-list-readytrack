@@ -8,9 +8,9 @@ const MovieList = (props) => {
             {props.movieItems.map((movie) => {
                 return (<li>
                     <MovieItem
-                    title={movie.title}
-                    overview={movie.overview}
-                    poster_path={movie.poster_path}
+                        title={movie.title}
+                        overview={movie.overview}
+                        poster_path={movie.poster_path}
                     />
                 </li>)
             })}
